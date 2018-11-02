@@ -1,0 +1,13 @@
+You must write a file to read all the files in a directory
+The program is called from the command line
+
+java ParseText books
+
+Read in the list of common words provided
+
+the program will open the directory books
+and read in each file, strip out all punctuation
+for each word, if the word is in the list of common words, count all occurrences of
+words immediately  before or after
+
+print each word combination that occurs more than 50 times.

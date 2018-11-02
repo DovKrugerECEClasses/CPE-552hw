@@ -1,0 +1,6 @@
+public class GameOfLife {
+	public static void main(String[] args) {
+		GameOfLife gol = new GameOfLife(800,800);
+	}
+
+}

@@ -1,0 +1,13 @@
+1. Write a regex to find the word "class" "interface" or "abstract class" and the name of the entity of the following:
+
+public class A {}
+public interface B{}
+public abstract class C {}
+
+2. Write Java code
+java.util.regex.Pattern
+
+Pattern.compile("....")
+
+This, is a test of punc-tuation.
+String[] words = {"This", "is", "a", "test", "of", "punctuation"};

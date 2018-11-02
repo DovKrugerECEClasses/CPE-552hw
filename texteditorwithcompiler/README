@@ -1,0 +1,14 @@
+When the compile menu is hit
+
+Runtime r = Runtime.getRuntime();
+Process p = r.exec("javac test.java");
+... see previous code
+
+Use regex to parse the errors and put the cursor on the first error in the first file
+Then each time a key is hit (I like F4) put the cursor on the NEXT error.
+
+If you use JavaCompiler + 100
+https://docs.oracle.com/javase/7/docs/api/javax/tools/JavaCompiler.html
+
+If you compile fast in RAM + 400
+

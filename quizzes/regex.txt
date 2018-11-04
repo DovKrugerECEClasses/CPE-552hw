@@ -1,13 +1,30 @@
 1. Write a regex to find the word "class" "interface" or "abstract class" and the name of the entity of the following:
 
-public class A {}
+public class
+A {}
 public interface B{}
 public abstract class C {}
+
+/((?:abstract\s+)?class|interface)\s+([A-Za-z_][A-Za-z\d_\$]/
+"((?:abstract\\s+)?class|interface)\\s+([A-Za-z_][A-Za-z\\d_\\$]"
+
 
 2. Write Java code
 java.util.regex.Pattern
 
 Pattern.compile("....")
 
-This, is a test of punc-tuation.
-String[] words = {"This", "is", "a", "test", "of", "punctuation"};
+String s = "This,  is a test of punc-tuation."
+s.split("[,.;\s]+"
+This, is a second test this one is a lot longer
+This,
+is
+a
+test
+of
+punctuation
+
+
+String[] words = {"This", "is", "a", "test", "of", "punct-uation"};
+
+

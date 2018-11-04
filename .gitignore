@@ -1,0 +1,3 @@
+*.class	#do not push any class files, they can be recompiled
+build	#do not push anything within a directory called build
+*~	#do not push Dov's emacs backup files in case he leaves some

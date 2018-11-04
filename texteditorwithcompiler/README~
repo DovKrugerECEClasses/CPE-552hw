@@ -1,4 +1,0 @@
-When the compile menu is hit
-
-Runtime r = Runtime.getRuntime();
-Process p = r.exec("javac test.java");
